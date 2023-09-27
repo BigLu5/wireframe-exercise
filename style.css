@@ -2,23 +2,26 @@ html {
   margin: 0px auto;
   display: flex;
   justify-content: center;
-  width: 960px;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  gap: 30px; /*gap adds gutters to all elements within the body tag*/
+  align-items: center;
+  gap: 30px;
 }
 
 header {
   display: flex;
   align-items: center;
-  height: 175px;
-  width: 960px; /*need to figure out how to make header and footer full width without distorting other elements*/
+  width: 100vw;
+  justify-content: center;
+  background-color: white;
+  padding: 8px 0px;
 }
 
 main {
+  width: 960px;
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -36,10 +39,10 @@ section {
 button {
   align-self: flex-start;
   background-color: #000000;
-  border-radius: 10px;
   color: #ffffff;
-  height: 12%;
-  width: 58%;
+  border-radius: 10px;
+  height: 30%;
+  width: 65%;
   transition-duration: 350ms;
 }
 
@@ -68,6 +71,10 @@ nav {
 footer {
   height: 140px;
   width: 100%;
-  background-color: lightgray;
-  margin-bottom: 10px;
+  background-color: #808080;
+}
+
+span {
+  display: flex;
+  width: 960px;
 }
