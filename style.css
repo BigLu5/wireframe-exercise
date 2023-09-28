@@ -74,7 +74,13 @@ footer {
   background-color: #808080;
 }
 
-span {
+header span {
+  display: flex;
+  width: 960px;
+}
+
+footer span {
+  background-color: black;
   display: flex;
   width: 960px;
 }
